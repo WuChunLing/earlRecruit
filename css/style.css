@@ -1,0 +1,163 @@
+html,body{
+	padding: 0;
+	margin: 0;
+}
+
+/*背景设置*/
+.section1{width:100%;height:100%;margin:0;background: url(../images/page1_bg.jpg);background-size: cover;}
+.section2{width:100%;height:100%;margin:0;background: url(../images/page2_bg.jpg);background-size: cover;}
+.section3{width:100%;height:100%;margin:0;background: url(../images/page3_bg.jpg);background-size: cover;}
+.section4{width:100%;height:100%;margin:0;background: url(../images/page4_bg.jpg);background-size: cover;}
+.section5{width:100%;height:100%;margin:0;background: url(../images/page5_bg.jpg);background-size: cover;}
+.section6{width:100%;height:100%;margin:0;background: url(../images/page2_bg.jpg);background-size: cover;}
+.section7{width:100%;height:100%;margin:0;background: url(../images/page7_bg.jpg);background-size: cover;}
+.section8{width:100%;height:100%;margin:0;background: url(../images/page2_bg.jpg);background-size: cover;}
+.section9{width:100%;height:100%;margin:0;background: url(../images/page1_bg.jpg);background-size: cover;}
+
+/*logo设置*/
+.logo_img{
+	width: 100%;
+	position: absolute;
+	top: 0;
+}
+/*首页与尾页的logo动画设置*/
+.logo_img:nth-child(1) {
+  
+}
+.logo_img:nth-child(9) {
+  
+}
+/*第一页设置*/
+
+/*招新图标*/
+.page1_icon{
+	display: block;
+	margin: 3px auto;
+}
+/*音乐图标*/
+.page1_music{
+	display: block;
+	margin: 0 auto;
+}
+/*招新标语*/
+.page1_word{
+	display:block;
+	text-align: center;
+	margin:16px auto;
+	font-size: 1.4em;
+	font-weight:bold;
+	color: rgb(0,32,96);
+	font-family: "微软雅黑";
+}
+/*招新信息*/
+.page1_msg{
+	display: block;
+	position: absolute;
+	line-height: 1.5em;
+	bottom:0.5%;
+	left: 4%;
+	font-size: 1.1em;
+	color: rgb(0,12,192);
+	font-family: '宋体';
+}
+
+/*第二页设置*/
+
+/*团队简介*/
+.page2_intro{
+	display: block;
+	padding: 25px 30px;
+	color: rgb(0,92,36);
+	font-size: 1.4em;
+	line-height: 1.6em;
+	font-family: 'Calibri';
+}
+
+/*第三、四、五页设置*/
+
+/*照片*/
+.person_photo{
+	margin: 10px auto;
+	display: block;
+	border-radius:5px;
+	box-shadow:5px 5px 2px gray;
+}
+/*人物介绍*/
+.person_intro{
+	display: block;
+	margin: 10px auto;
+	padding:5px 25px;
+	color:black;
+	font-size: 1.4em;
+	line-height: 1.5em;
+	font-family:'STXingkai'; 
+}
+/*人物标签*/
+.person_tip{
+	display: block;
+	float: right;
+	margin-right:10px;
+	color:black;
+	font-family: 'STXingkai';
+	font-size:1.3em;
+	line-height: 1.4em; 
+	text-align: center;
+}
+/*next*/
+.next{
+	display: block;
+	position: absolute;
+	bottom: 3px;
+	right: 5px;
+}
+
+/*第六页设置*/
+.page6_icon{
+	display: block;
+	margin: 10px auto;
+}
+.page6_question{
+	display: block;
+	margin: 10px auto;
+	font-size: 1.5em;
+	font-family: 'STXingkai';
+	line-height: 1.6em;
+	color: rgb(47,85,151);
+	text-align: center;
+}
+
+/*第七页设置*/
+.page7_article{
+	width: 70%;
+	display: block;
+	padding:20px;
+	margin: 10px auto;
+	background: rgb(201,227,237);
+	background-opacity:0.7;
+	color: rgb(68,114,196);
+	font-size: 1.2em;
+	line-height: 1.4em;
+	font-family: '宋体';
+}
+/*第八页设置*/
+.section8 p{
+	color: rgb(68,114,196);
+	font-size: 1.4em;
+	line-height: 1.6em;
+	font-family: '宋体';
+	display: block;
+	width: 60%;
+	margin: 0 auto;
+}
+/*第九页设置*/
+.page9_word{
+	color: rgb(68,84,106);
+	display: block;
+	margin: 3px auto;
+	text-align: center;
+	font-family: '宋体';
+	font-size: 1.3em;
+}
+.page9_word:nth-child(1) {
+  margin-top:45px;
+}
